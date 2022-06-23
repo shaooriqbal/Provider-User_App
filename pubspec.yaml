@@ -1,0 +1,88 @@
+name: booking_system_flutter
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  nb_utils: ^4.4.10
+  mobx: ^2.0.5
+  flutter_mobx: ^2.0.2
+  cached_network_image: ^3.1.0
+  google_fonts: ^2.1.0
+  flutter_vector_icons: ^1.0.0
+  html: ^0.15.0
+  http: ^0.13.4
+  intl: ^0.17.0
+  image_picker: ^0.8.4+3
+  flutter_staggered_grid_view: ^0.4.0
+  date_time_picker: 2.1.0
+  url_launcher: ^6.0.12
+  onesignal_flutter: ^3.2.4
+  photo_view: ^0.13.0
+  flutter_rating_bar: ^4.0.0
+  package_info: ^2.0.2
+  clippy_flutter: 2.0.0-nullsafety.1
+  country_code_picker: ^2.0.2
+  file_picker: ^4.1.6
+  flutter_svg: ^1.0.3
+  otp_text_field: ^1.1.1
+  webview_flutter: ^3.0.0
+
+
+  #google signin
+  google_sign_in: ^5.2.0
+
+  firebase_crashlytics: ^2.2.4
+  firebase_core: ^1.8.0
+  firebase_auth: ^3.1.4
+  firebase_storage: ^10.0.6
+  firebase_database: ^9.0.14
+  paginate_firestore: ^1.0.1+1
+  cloud_firestore: ^3.1.15
+  flutter_blurhash: ^0.7.0
+  veriff_flutter: ^2.1.0
+
+  # PAYMENTS
+  flutter_stripe: ^2.4.0
+  razorpay_flutter: ^1.2.7
+  flutter_paystack: ^1.0.5+1
+  flutter_inappwebview: ^5.3.2
+
+  ## Map
+  google_maps_flutter: ^2.0.11
+  geolocator: ^8.2.1
+  geocoding: ^2.0.1
+
+  # ADS
+  google_mobile_ads: ^1.2.0
+
+  pin_code_fields: ^7.3.0
+
+
+  flutter_localizations:
+    sdk: flutter
+  firebase_messaging: ^11.2.4
+  video_player: ^2.4.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.6
+  mobx_codegen: ^2.0.2
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/flag/
+    - images/video/splash2.mp4
